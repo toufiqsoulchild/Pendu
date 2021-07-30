@@ -9,5 +9,6 @@ def dictionnaire():
 
 def mystere(choix):
     taille = len(choix)
-    print(taille)
+    motcache = taille*"*"
+    print(motcache)
 
